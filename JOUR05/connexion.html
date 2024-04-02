@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="inscription.css" />
+
+    <title>CONNEXION</title>
+</head>
+
+<body>
+    <header>
+        <h1> Jour 05</h1>
+        <nav>
+            <a href="inscription.html"> Inscription</a>
+            <a href="connexion.html"> Connexion</a>
+        </nav>
+        </header>
+        
+    <form>
+    <div id="formConnexion">
+    
+        <label for="mail">Mail</label>
+        <input type="mail" id="mailConnexion" name="mail" placeholder="maily.vannobel@laplateforme.io" size="30">
+
+        <label for="mdp">Mot de passe </label>
+        <input type="password" id="mdp" name="mdp" placeholder="Entrez MDP" size="15" required>
+
+        <label for="mdpVerif"> Retapez votre mot de passe </label>
+        <input type="password" id="mdpVerif" name="mdpVerif" placeholder="Vérifiez MDP" size="15"size="10" required><br><br>
+
+
+        <input type="button" id="valider" value="Valider">
+    </div>
+
+    <div>
+        <span id="message1" class="messageErreur"></span>
+        <span id="message2" class="messageErreur"></span>
+        <span id="message3" class="messageErreur"></span>
+
+    </div>
+
+    </form>
+
+    
+<footer>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+<script src="script.js" defer></script>
+
+</body>
+</html>

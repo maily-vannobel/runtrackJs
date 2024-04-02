@@ -1,0 +1,5 @@
+" Votre expression favorite"
+
+.then(response => response.json) // si tout ok : Fetch retourne une promesse
+.then(response => alert(JSON.stringify(response))) // 
+.catch(error => alert("Erreur : " + error));

@@ -1,0 +1,10 @@
+body {
+    background-color: palevioletred;
+    text-align: center;
+}
+
+body.stylePlateforme {
+
+background-color: #0C374D;
+color: white;
+}
