@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JOB3-J7</title>
+    <title>JOB4-J7</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
@@ -19,13 +20,16 @@
 </header>
 
 <main>
-<h1> Création de compte</h1>
-<form action="#">
+
+  <h1> Création de compte</h1>
+
+<form action="#" class="container">
+  
     <div>
         <label for="civilite">Civilité :</label><br>
 
         <label>
-             <input class="with-gap" name="group1" type="radio"  />
+             <input class="with-gap" name="group1" type="radio"/>
              <span>Mme</span>
           </label> <br>
           <label>
@@ -33,32 +37,52 @@
              <span>Mr</span>
           </label>
     </div>
-    <div>
-        <label for="prenom">Prénom :</label><br>
-        <input type="text" id="prenom" name="prenom">
-    </div>
-    <div>
-        <label for="nom">Nom :</label><br>
+    
+<div class="row">
+        <div class="input-field col s6">
+          <i class="material-icons prefix">face</i>
+           <label for="prenom">Prénom :</label><br>
+           <input type="text" id="prenom" name="prenom" >
+        </div>
+
+        <div class="input-field col s6">
+          <i class="material-icons prefix">mood</i>
+
+            <label for="nom">Nom :</label><br>
             <input type="text" id="nom" name="nom">
         </div>
-        <div>
+</div>
+<div class="row">
+        <div class="input-field">
+          <i class="material-icons prefix">location_on</i>
             <label for="adresse">Adresse :</label><br>
             <input type="text" id="adresse" name="adresse">
         </div>
-        <div>
-            <label for="email">Adresse-email :</label><br>
-            <input type="email" id="email" name="email">
+</div>
+
+<div class="row">
+        <div class="input-field"> 
+          <i class="material-icons prefix">email</i>
+            <input type="email" id="email" name="email" class="validate">
+            <label for="email" data-error="Adresse email invalide" data-success="Adresse email valide">Adresse email :</label>
+            <span class="helper-text" data-error="Adresse email invalide" data-success="Adresse email valide"></span>
         </div>
-        <div>
+</div>  
+<div class="row">
+        <div class="input-field col s6">
+          <i class="material-icons prefix">fingerprint</i>
             <label for="password">Mot de passe :</label><br>
             <input type="password" id="password" name="password">
         </div>
-        <div>
+
+        <div class="input-field col s6">
+          <i class="material-icons prefix">redo</i>
             <label for="password_confirm">Confirmer le mot de passe :</label><br>
             <input type="password" id="password_confirm" name="password_confirm">
         </div>
-        <div>
-
+      </div>
+        
+      <div>
          <label> Passions : </label><br>
          <label>
             <input type="checkbox" class="filled-in" checked="checked" />
@@ -85,6 +109,7 @@
     <div>
         <button type="submit">Valider</button>
     </div>
+
 </form>
 
 </main>
