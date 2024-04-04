@@ -3,33 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JOB4-J7</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>JOB1/2-J8</title>
 </head>
 
 <body>
 <header>
-  <nav>
-      <ul>
-        <li><a href="#">Accueil</a></li>
-        <li><a href="#">Connexion</a></li>
-        <li><a href="#">Inscription</a></li>
-        <li><a href="#">Recherche</a></li>
-      </ul>
-  </nav>                    
+
+  <section class="pt-8 px-6 bg-rose-300">
+    <h2 class="mb-4 text-2xl font-bold text-rose-700">Création de compte</h2>
+    <div class="flex flex-wrap text-sm text-center">
+      <a class="inline-block w-full md:w-1/2 lg:w-auto mb-4 lg:mb-0 px-4 pb-2 border-b-2 border-rose-700 text-rose-700" 
+         href="#">Accueil</a>
+         <a class="inline-block w-full md:w-1/2 lg:w-auto mb-4 lg:mb-0 px-4 pb-2 border-b-2 border-rose-700 text-rose-700" 
+         href="#">Inscription</a> 
+         <a class="inline-block w-full md:w-1/2 lg:w-auto mb-4 lg:mb-0 px-4 pb-2 border-b-2 border-rose-700 text-rose-700" 
+         href="#">Connexion</a>    
+         <a class="inline-block w-full md:w-1/2 lg:w-auto mb-4 lg:mb-0 px-4 pb-2 border-b-2 border-rose-700 text-rose-700" 
+         href="#">Recherche</a>  </section>
 </header>
 
 <main>
-
-  <h2 class=> Création de compte</h2>
-
-<form action="#" class="container">
-  
+<form action="#">
     <div>
         <label for="civilite">Civilité :</label><br>
 
         <label>
-             <input class="with-gap" name="group1" type="radio"/>
+             <input class="with-gap" name="group1" type="radio"  />
              <span>Mme</span>
           </label> <br>
           <label>
@@ -37,52 +37,32 @@
              <span>Mr</span>
           </label>
     </div>
-    
-<div class="row">
-        <div class="input-field col s6">
-          <i class="material-icons prefix">face</i>
-           <label for="prenom">Prénom :</label><br>
-           <input type="text" id="prenom" name="prenom" >
-        </div>
-
-        <div class="input-field col s6">
-          <i class="material-icons prefix">mood</i>
-
-            <label for="nom">Nom :</label><br>
+    <div>
+        <label for="prenom">Prénom :</label><br>
+        <input type="text" id="prenom" name="prenom">
+    </div>
+    <div>
+        <label for="nom">Nom :</label><br>
             <input type="text" id="nom" name="nom">
         </div>
-</div>
-<div class="row">
-        <div class="input-field">
-          <i class="material-icons prefix">location_on</i>
+        <div>
             <label for="adresse">Adresse :</label><br>
             <input type="text" id="adresse" name="adresse">
         </div>
-</div>
-
-<div class="row">
-        <div class="input-field"> 
-          <i class="material-icons prefix">email</i>
-            <input type="email" id="email" name="email" class="validate">
-            <label for="email" data-error="Adresse email invalide" data-success="Adresse email valide">Adresse email :</label>
-            <span class="helper-text" data-error="Adresse email invalide" data-success="Adresse email valide"></span>
+        <div>
+            <label for="email">Adresse-email :</label><br>
+            <input type="email" id="email" name="email">
         </div>
-</div>  
-<div class="row">
-        <div class="input-field col s6">
-          <i class="material-icons prefix">fingerprint</i>
+        <div>
             <label for="password">Mot de passe :</label><br>
             <input type="password" id="password" name="password">
         </div>
-
-        <div class="input-field col s6">
-          <i class="material-icons prefix">redo</i>
+        <div>
             <label for="password_confirm">Confirmer le mot de passe :</label><br>
             <input type="password" id="password_confirm" name="password_confirm">
         </div>
-      </div>
-        
-      <div>
+        <div>
+
          <label> Passions : </label><br>
          <label>
             <input type="checkbox" class="filled-in" checked="checked" />
@@ -109,7 +89,6 @@
     <div>
         <button type="submit">Valider</button>
     </div>
-
 </form>
 
 </main>
@@ -126,12 +105,8 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
-<!-- Compiled and minified CSS -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-<!-- Compiled and minified JavaScript -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-<script src="script.js" defer></script>
+<script src="tailwind.config.js"></script>
 
 </body>
 </html>
