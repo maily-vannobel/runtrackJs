@@ -1,0 +1,25 @@
+{
+  "utilisateurs": [
+      {
+          "id": 1,
+          "nom": "Vannobel",
+          "prénom": "Maïly",
+          "adresse_mail": "maily.vannobel@laplateforme.io",
+          "role": "administrateur"
+      },
+      {
+          "id": 2,
+          "nom": "Houidef",
+          "prénom": "Aaliyah",
+          "adresse_mail": "aaliyah.houidef@laplateforme.io",
+          "role": "moderateur"
+      },
+      {
+          "id": 3,
+          "nom": "Bachelier",
+          "prénom": "Alonzo",
+          "adresse_mail": "alonzo.bachelier@laplateforme.io",
+          "role": "etudiant"
+      }
+  ]
+}
